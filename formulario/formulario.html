@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend> informações de contato </legend>
+            <label for="nome">Nome:</label>    
+            <input type="text" id="nome" name="nome" placeholder="informe seu nome" required>
+
+            
+
+            <legend>informe o seu contato</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="informe o seu nome">
+            
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>Preferencia</legend>
+            <p>informe sua cor favorita</p>
+            <label><input type="radio" name="cor">Azul</label>
+            <label><input type="radio" name="cor">vermelho</label>
+            
+            <p>informe quais frutas voce quer</p>
+            <label><input type="checkbox" name="frutas">Maçã</label>
+            <label><input type="checkbox" name="frutas">banana</label>
+
+            <label for="idioma">idioma</label>
+            <select name="" id="idioma">
+
+                <option value="pt-br" disabled selected>selecione uma opcao</option>
+                <option value="pt-br" >Portugues</option>
+                <option value="Ingles">Ingles</option>
+            </select>
+
+            <textarea name="sugestoes" id="sugestoes"></textarea>
+
+        </fieldset>
+        <button type="submit">enviar</button>
+        
+    </form> 
+</body>
+
+</html>
